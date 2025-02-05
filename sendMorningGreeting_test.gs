@@ -27,7 +27,7 @@ function sendMorningMessage() {
   }
   
   // メッセージを送信
-  var senderName = "松ヶ野健吾"; // 送信者名を入力
+  var senderName = "YOUR_NAME"; // 送信者名を入力
   
   var message = {
     "cards": [
@@ -50,7 +50,7 @@ function sendMorningMessage() {
     ]
   };
   
-  var url = "https://chat.googleapis.com/v1/spaces/AAAAvn0_sd0/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=e_fOIk52mIblHKFjBVaIrqqd-TXp8Ask4YIypnDeP8g"; // Webhook URLを入力
+  var url = "YOUR_Webhook URL"; // Webhook URLを入力
   var options = {
     "method": "post",
     "contentType": "application/json",

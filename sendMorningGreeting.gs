@@ -23,9 +23,6 @@ function sendMorningMessage() {
     return;
   }
   
-  // メッセージを送信
-  // const senderName = "氏名"; // 送信者名を入力
-  
   const message = {
     "text": "おはようございます。よろしくお願いします。"
     // "text": "おはようございます。メール担当します。よろしくお願いします。" // メール担当時のテンプレ
